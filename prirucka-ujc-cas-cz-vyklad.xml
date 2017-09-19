@@ -1,0 +1,14 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:referrer="http://a9.com/-/opensearch/extensions/referrer/1.0/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+<ShortName>Výklad ÚJČ</ShortName>
+<Description>Internetová jazyková příručka - výkladová část</Description>
+<InputEncoding>UTF-8</InputEncoding>
+<Image width="16" height="16">data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAREQAAAAAAAQAAEAAAAAAAEAEAAAAAAAAQAQAAAAAAABABAAAAAAAAEAEREQAAAAAQAAAAEAAAABABERABAAAAEAEAEAEAAAAQAQAQAQAAABABABABAAAAEAEREAEAAAEAAAAAEAAAABEREREAAAAAAAAAAAAAD//wAA4f8AAMD/AADh/wAA4f8AAOH/AADgHwAA4A8AAOAHAADhhwAA4YcAAOGHAADgBwAAwA8AAOAfAAD//wAA</Image>
+<Image type="image/x-icon" width="16" height="16">http://prirucka.ujc.cas.cz/files/favicon.ico</Image>
+
+<Url type="text/html" method="GET" template="http://prirucka.ujc.cas.cz/" resultdomain="prirucka.ujc.cas.cz">
+	<Param name="dotaz" value="{searchTerms}"/>
+</Url>
+<SearchForm>http://prirucka.ujc.cas.cz/</SearchForm>
+</OpenSearchDescription>
